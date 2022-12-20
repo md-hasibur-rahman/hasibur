@@ -62,7 +62,7 @@ body {
 
 h2 {
     font-size: 38px;
-    color: #222222;
+    color: #0A646E;
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
     margin: 0px 0 25px 0;
@@ -73,7 +73,7 @@ h2 {
 h3 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    color: #222222;
+    color: #0A646E;
     font-size: 18px;
     margin: 0 0 5px 0;
 }
@@ -158,7 +158,7 @@ p {
 .navStyle ul li a {
     display: block;
     font-size: 14px;
-    color: #222222;
+    color: #0A646E;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
@@ -481,7 +481,7 @@ a.contact_btn:hover {
     padding: 10px 22px;
     font-size: 12px;
     line-height: 20px;
-    color: #222222;
+    color: #0A646E;
     border-radius: 4px;
     text-transform: uppercase;
     background: #f7f7f7;
@@ -1119,7 +1119,7 @@ img {
 }
 
 .section-title h2 {
-    color: #222222;
+    color: #0A646E;
     font-family: 'Raleway', sans-serif;
     font-size: 34px;
     letter-spacing: -1px;
@@ -1462,7 +1462,7 @@ img {
 }
 
 .project-description h5 {
-    color: #222222;
+    color: #0A646E;
     text-transform: uppercase;
     margin-bottom: 5px;
 }
