@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Hasibur Rahman - Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>Hasib's Portfolio</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#pinterest" class="nav-link">Pinterest</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="profile-section">
+                <div class="profile-image-container">
+                    <div class="profile-image">
+                        <img src="profile.png" alt="Md. Hasibur Rahman">
+                    </div>
+                </div>
+                <div class="profile-info">
+                    <h1 class="profile-name">Md. Hasibur Rahman</h1>
+                    <p class="profile-title">Software Developer & Engineer</p>
+                    <p class="profile-description">
+                        Welcome to my world! Hi, I am Md. Hasib. My name is Md. Hasibur Rahman, and I have three years of experience in the field of software development. In my career, I have developed a wide range of software applications, websites and mobile applications for private organizations, government agencies, corporations and lawyers of the High Court and Supreme Court.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/md-hasibur-rahman" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pinterest Section -->
+    <section id="pinterest" class="pinterest-section">
+        <div class="container">
+            <h2 class="section-title">Creative Gallery</h2>
+            <p class="section-subtitle">Explore my creative works and inspirations on Pinterest</p>
+            
+            <div class="pinterest-content">
+                <div class="pinterest-card">
+                    <div class="pinterest-icon">
+                        <i class="fab fa-pinterest"></i>
+                    </div>
+                    <div class="pinterest-info">
+                        <h3>My Pinterest Collection</h3>
+                        <p>Discover my curated collection of design inspirations, creative projects, and visual ideas. From UI/UX designs to development resources, explore the creative side of my work.</p>
+                        
+                        <div class="pinterest-features">
+                            <div class="feature-item">
+                                <i class="fas fa-palette"></i>
+                                <span>Design Inspirations</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-code"></i>
+                                <span>Development Resources</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-lightbulb"></i>
+                                <span>Creative Ideas</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>UI/UX Concepts</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="pinterest-action">
+                        <a href="https://pin.it/pAHOaMwLZ" target="_blank" class="pinterest-btn">
+                            <i class="fab fa-pinterest"></i>
+                            <span>Visit My Pinterest</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects/Repositories Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">Explore my diverse range of software development projects and repositories</p>
+            
+            <div class="projects-grid">
+                <!-- Main Portfolio Repository -->
+                <div class="project-card" data-repo="portfolio">
+                    <div class="project-icon">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Personal Portfolio</h3>
+                        <p>My complete portfolio showcasing 3 years of software development experience</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="project-actions">
+                        <a href="#" class="btn-primary" onclick="openRepository('portfolio')">
+                            <i class="fas fa-eye"></i> View Details
+                        </a>
+                        <a href="https://github.com/md-hasibur-rahman/portfolio" target="_blank" class="btn-secondary">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Web Development Projects -->
+                <div class="project-card" data-repo="web-projects">
+                    <div class="project-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Web Applications</h3>
+                        <p>Web applications and websites for private organizations and government agencies</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                    </div>
+                    <div class="project-actions">
+                        <a href="#" class="btn-primary" onclick="openRepository('web-projects')">
+                            <i class="fas fa-eye"></i> View Details
+                        </a>
+                        <a href="https://github.com/md-hasibur-rahman/web-projects" target="_blank" class="btn-secondary">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Mobile App Projects -->
+                <div class="project-card" data-repo="mobile-apps">
+                    <div class="project-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Mobile Applications</h3>
+                        <p>Android and iOS applications for corporations and legal professionals</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Firebase</span>
+                        </div>
+                    </div>
+                    <div class="project-actions">
+                        <a href="#" class="btn-primary" onclick="openRepository('mobile-apps')">
+                            <i class="fas fa-eye"></i> View Details
+                        </a>
+                        <a href="https://github.com/md-hasibur-rahman/mobile-apps" target="_blank" class="btn-secondary">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Data Science Projects -->
+                <div class="project-card" data-repo="data-science">
+                    <div class="project-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Legal Software</h3>
+                        <p>Specialized software solutions for High Court and Supreme Court lawyers</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Pandas</span>
+                        </div>
+                    </div>
+                    <div class="project-actions">
+                        <a href="#" class="btn-primary" onclick="openRepository('legal-software')">
+                            <i class="fas fa-eye"></i> View Details
+                        </a>
+                        <a href="https://github.com/md-hasibur-rahman/legal-software" target="_blank" class="btn-secondary">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Game Development -->
+                <div class="project-card" data-repo="game-dev">
+                    <div class="project-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Enterprise Solutions</h3>
+                        <p>Custom software solutions for corporations and business organizations</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="project-actions">
+                        <a href="#" class="btn-primary" onclick="openRepository('enterprise-solutions')">
+                            <i class="fas fa-eye"></i> View Details
+                        </a>
+                        <a href="https://github.com/md-hasibur-rahman/enterprise-solutions" target="_blank" class="btn-secondary">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Open Source Contributions -->
+                <div class="project-card" data-repo="open-source">
+                    <div class="project-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Government Projects</h3>
+                        <p>Software applications developed for various government agencies and departments</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Various</span>
+                            <span class="tech-tag">Community</span>
+                            <span class="tech-tag">Collaboration</span>
+                        </div>
+                    </div>
+                    <div class="project-actions">
+                        <a href="#" class="btn-primary" onclick="openRepository('government-projects')">
+                            <i class="fas fa-eye"></i> View Details
+                        </a>
+                        <a href="https://github.com/md-hasibur-rahman/government-projects" target="_blank" class="btn-secondary">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repository Navigation Info -->
+            <div class="repo-navigation-info">
+                <div class="info-card">
+                    <i class="fas fa-info-circle"></i>
+                    <div>
+                        <h4>নেভিগেশন গাইড</h4>
+                        <p><strong>"দেখুন"</strong> বাটনে ক্লিক করলে সেই প্রজেক্টের বিস্তারিত পেজে যাবেন। <strong>"GitHub"</strong> বাটনে ক্লিক করলে সরাসরি GitHub রিপোজিটরিতে যাবেন।</p>
+                        <p>প্রতিটি প্রজেক্ট পেজে <strong>"← ব্যাক"</strong> বাটন থাকবে মূল পেজে ফিরে আসার জন্য।</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <p class="section-subtitle">Get in touch with me</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>animeandmanga1810@tutamail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>০১৮৭২৬২৫৮৩২</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Dhaka, Bangladesh</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <a href="http://Wa.me/+88001872625832" target="_blank" style="color: inherit; text-decoration: none;">WhatsApp</a>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <div class="contact-form-card">
+                        <h3>Send me a message</h3>
+                        <p>I'd love to hear from you. Send me a message and I'll respond as soon as possible.</p>
+                        
+                        <form action="https://formspree.io/f/mdkweyvk" method="POST" class="contact-form">
+                            <!-- Formspree Configuration -->
+                            <input type="hidden" name="_subject" value="New message from portfolio website">
+                            <input type="hidden" name="_replyto" value="animeandmanga1810@tutamail.com">
+                            <input type="hidden" name="_next" value="https://md-hasibur-rahman.github.io/portfolio/#contact">
+                            
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="submit-btn">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                            
+                            <div class="form-note">
+                                <small><i class="fas fa-info-circle"></i> Powered by Formspree - Your message will be sent securely.</small>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="close-btn" onclick="closeLightbox()">&times;</span>
+            <div class="lightbox-media">
+                <img id="lightbox-img" src="" alt="">
+                <video id="lightbox-video" controls style="display: none;">
+                    <source src="" type="video/mp4">
+                </video>
+            </div>
+            <div class="lightbox-info">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-details"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
